@@ -1,9 +1,9 @@
-import Login from './components/login/Login';
-import './App.css';
+import Login from './components/Login/Login';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{margin:0}}>
       <Login/>
     </div>
     
